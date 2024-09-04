@@ -74,7 +74,7 @@ cd gdpr-log-analysis-tool
 2. **Run the tool by specifying the path to your log file:**
 
 ```
-python main.py path/to/your/application_logfile.csv
+python betascript.py path/to/your/application_logfile.csv
 ```
 
 **Dopo l'esecuzione, lo strumento genererà un report dettagliato di conformità GDPR:**
