@@ -4,6 +4,11 @@ GDPR Log Checker
 # Strumento di Analisi Log Conforme al GDPR  
 # GDPR Compliant Log Analysis Tool
 
+
+# Avvertenza: Questo strumento è fornito unicamente a scopo di test e dimostrazione. L'autore non si assume alcuna responsabilità per l'uso dello stesso, né per eventuali danni diretti o indiretti derivanti dall'impiego del codice. Lo strumento è inteso come base di partenza e deve essere modificato e adattato alle esigenze personali o professionali. Si consiglia di consultare esperti di conformità legale e protezione dei dati prima di utilizzare o implementare il codice in contesti reali.
+
+# Disclaimer: This tool is provided solely for testing and demonstration purposes. The author assumes no responsibility for its use or for any direct or indirect damages resulting from the application of the code. The tool is intended as a starting point and must be modified and adapted to meet personal or professional needs. It is strongly recommended to consult legal compliance and data protection experts before using or implementing the code in real-world scenarios.
+
 ## Panoramica  
 ## Overview
 Questo strumento è progettato per analizzare vari tipi di log (come i log applicativi) al fine di garantire la conformità al **Regolamento Generale sulla Protezione dei Dati (GDPR)**.  
