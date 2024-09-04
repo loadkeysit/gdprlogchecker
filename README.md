@@ -109,24 +109,26 @@ suggestion: A GDPR-compliant recommendation based on the identified issue.
 ### Esempio
 ### Example
 
-Dato il seguente esempio di dati di log in sample_log.csv: 
+Dato il seguente esempio di dati di log in sample_log.log: 
 
-Given the following example log data in sample_log.csv:
+Given the following example log data in sample_log.log:
 
 ```
 log
 "user_id=123, session_id=456, login avvenuto con successo"
 "transaction=order123, metodo di pagamento=carta di credito"
 "errore: timeout di connessione al database"
-Eseguendo lo strumento: Running the tool:
+```
+**Eseguendo lo strumento:**
+
+**Running the tool:**
+```
+python main.py sample_log.log
 ```
 
-```
-python main.py sample_log.csv
-```
+**Produrrà un report CSV, evidenziando i rischi GDPR, come:**
 
-**Produrrà un report CSV, evidenziando i rischi GDPR, come: 
-Will produce a CSV report, highlighting GDPR risks, such as:**
+**Will produce a CSV report, highlighting GDPR risks, such as:**
 
 Gli ID utente e i token di sessione dovrebbero essere pseudonimizzati.
 
